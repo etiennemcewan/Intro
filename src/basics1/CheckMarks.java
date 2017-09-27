@@ -2,7 +2,7 @@ package basics1;
 
 public class CheckMarks {
 public static void main(String[] args) {
-	gradeStudent(76);
+	gradeStudent(49);
 }
 	
 	
@@ -15,11 +15,11 @@ public static void main(String[] args) {
 			System.out.println("Grade C");
 	else if(studentScore > 70 && studentScore < 80)
 			System.out.println("Grade B");
-	}
-	
-	
-	
-	
+	else System.out.println("fail");}
 
+		
+	
+	
+	
 }
 
